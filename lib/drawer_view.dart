@@ -25,8 +25,7 @@ class CustomDrawerView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ColumnList(
-      rawList: <Widget>[drawerHeader(context)],
-      listWidget: drawerList,
+      rawList: <Widget>[drawerHeader(context), drawerList],
     );
   }
 }

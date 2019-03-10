@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class CustomListView extends StatelessWidget {
-  CustomListView({this.list});
+class ExpandedListView extends StatelessWidget {
+  ExpandedListView({this.list});
   final List<Widget> list;
 
   @override
